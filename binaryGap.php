@@ -3,6 +3,7 @@ echo solution(1041);
 function solution($n){
 	//Get the binary nof the number
 	$bnry = decbin($n);
+	//trim  zero from both sides
 	$bnry=trim($bnry, "0");
 	//Explode string by 1-s
 	//Compare the length of each
